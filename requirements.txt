@@ -1,1 +1,17 @@
 langchain
+langchain_community
+fastapi
+uvicorn
+pydantic
+python-dotenv
+requests
+httpx
+streamlit
+langchain_openai
+langchain_google_community
+langchain_groq
+langgraph
+langchain_google_community[places]
+setuptools
+
+-e .
