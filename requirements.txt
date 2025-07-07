@@ -13,5 +13,5 @@ langchain_groq
 langgraph
 langchain_google_community[places]
 setuptools
-
+pyyaml
 -e .
