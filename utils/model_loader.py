@@ -17,7 +17,7 @@ class ConfigLoader:
 class ModelLoader(BaseModel):
     
     model_provider: Literal['openai', 'groq']='groq'
-    config: ConfigLoader = Field(exclude=True)
+    config: Optional[ConfigLoader] = Field(default=None, exclude=True)
     
     def model_post_init(self, __context: Any) -> None:
         #mode_post_init is called after the model is initialized imimediately
